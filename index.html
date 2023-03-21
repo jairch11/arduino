@@ -1,42 +1,40 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title>4 columnas iguales con colores</title>
-	<style>
-		body {
-			margin:0px;
-		     }
-		.column {
-			float: left;
-			width: 25%;
-			height: 100vh;
-
-		}
- 
-		.yellow {
-			background-color: orange;
-		}
-
-		.blue {
-			background-color: rgb(155, 32, 128);
-		}
-
-		.red {
-			background-color: red;
-		}
-
-		.green {
-			background-color: cyan;
-		}
-
-	</style>
-</head>
-<body>
-
-	<div class="column yellow"></div>
-	<div class="column blue"></div>
-	<div class="column red"></div>
-	<div class="column green"></div>
-
-</body>
+  <head>
+    <title>Mi página web</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <nav>
+      <div class="logo">
+        <a href="#">Mi sitio web</a>
+      </div>
+      <ul class="nav-links">
+        <li><a href="#">Inicio</a></li>
+        <li><a href="#">Nosotros</a></li>
+        <li><a href="#">Contacto</a></li>
+      </ul>
+      <div class="burger">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+      </div>
+    </nav>
+    <div class="sidebar">
+      <ul class="sidebar-links">
+        <li><a href="#">Opción 1</a></li>
+        <li><a href="#">Opción 2</a></li>
+        <li><a href="#">Opción 3</a></li>
+      </ul>
+    </div>
+    <div class="content">
+      <h1>Bienvenidos a mi sitio web</h1>
+      <p>Este es el contenido principal de mi página web.</p>
+    </div>
+    <footer>
+      <p>© 2023 Todos los derechos reservados</p>
+    </footer>
+    <script src="app.js"></script>
+  </body>
 </html>
+
